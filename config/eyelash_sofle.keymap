@@ -111,11 +111,11 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE     &kp F1          &kp F2          &kp F3           &kp F4     &kp F5    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10    &trans
-&trans        &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP  &trans    &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER  &kp PLUS
-&kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &trans    &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC   &kp RBRC
-&trans        &trans          &trans          &trans           &trans     &trans    &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &trans     &trans
-&trans        &trans          &trans          &trans           &trans     &trans    &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&kp GRAVE     &kp F1  &kp F2          &kp F3          &kp F4           &kp F5       &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10    &trans
+&trans        &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP    &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER  &kp PLUS
+&kp CAPSLOCK  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN    &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC   &kp RBRC
+&trans        &trans  &trans          &trans          &trans           &trans       &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &trans     &trans
+&trans        &trans  &trans          &trans          &trans           &trans       &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
             display-name = "LAYER2";
