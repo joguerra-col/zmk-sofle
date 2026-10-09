@@ -107,8 +107,8 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-low$$
   - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - F20
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
